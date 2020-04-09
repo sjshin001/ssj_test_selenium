@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="TestNG Suite Name">
+	<!--<listeners>-->
+		<!--<listener class-name="org.uncommons.reportng.HTMLReporter" />-->
+		<!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />-->
+	<!--</listeners>-->
+
+	<test name="excute_test" preserve-order="false">
+		<packages>
+			<package name="excute" />
+		</packages>
+	</test>
+</suite>
