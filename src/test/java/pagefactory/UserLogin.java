@@ -20,8 +20,8 @@ public class UserLogin {
     @FindBy(how = How.CLASS_NAME, using = "cmem_btn")
     private WebElement loginBtn;
 
-    private static String USERID = "shise000";
-    private static String PWD = "qlalfqjsgh1";
+    private static String USERID = "";
+    private static String PWD = "";
 
     public UserLogin(WebDriver driver){
         PageFactory.initElements(driver, this);
